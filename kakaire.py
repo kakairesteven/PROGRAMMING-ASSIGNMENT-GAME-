@@ -19,6 +19,7 @@ castle = pygame.image.load("resources/images/castle.png")
 while 1:
     # 5 - clear the screen before drawing it again
     screen.fill(0)
+    
     # 6 - draw the screen elements
     for x in range(width/grass.get_width()+1):
         for y in range(height/grass.get_height()+1):
